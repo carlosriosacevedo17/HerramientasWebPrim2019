@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>w3 ejemplo 3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/estilo6.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script src="js/javascript1.js">
+</script>
+</head>
+<body onload="displayDate()">
+	<div class="header">
+  <h1>Facultad de Computación</h1>
+  <h2>ejemplo 3 w3school</h2>
+ </div>
+	<div class="container">
+		<form>
+			<label>Nombre:</label><input type="text" name="nombre" id="nombre" onkeypress="return soloLetras(event)" required><br>
+			<label>Paterno:</label><input type="text" name="paterno" id="paterno" onkeypress="return soloLetras(event)" required><br>
+			<label>Materno:</label><input type="text" name="materno" id="materno" onkeypress="return soloLetras(event)"><br>
+			<div id="grafica" >
+				
+			</div>
+			<input type="button" onclick="muestra()" value="mostrar">
+			<input type="button" onclick="limpiar()" value="Limpiar">
+		</form>
+	</div>
+<div class="footer">
+<button id="fechaFooter">La fecha es:</button>
+  <h1></h1>
+ </div>
+</body>
+</html>

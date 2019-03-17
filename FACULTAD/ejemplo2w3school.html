@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mozilla Javascript ejemplo 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/estilo6.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script src="js/javascript1.js">
+</script>
+</head>
+<body onload="displayDate()">
+	<div class="header">
+  <h1>Facultad de Computación</h1>
+  <h2>ejemplo 1 w3school</h2>
+ </div>
+	<div class="container">
+		<form>
+			<label>Escribe el valor1:</label><input type="text" name="n1" id="n1" onkeypress="return soloNumeros(event)"><br>
+			<label>Escribe el valor2:</label><input type="text" name="n2" id="n2" onkeypress="return soloNumeros(event)"><br>
+			<label>Resultado=</label><input type="text" name="resultado" id="resultado" readonly><br>
+			<input type="button" onclick="sumar()" value="sumar">
+			<input type="button" onclick="restar()" value="restar">
+			<input type="button" onclick="multiplicar()" value="multiplicar">
+			<input type="button" onclick="limpiarCajas()" value="Limpiar">
+		</form>
+	
+  </div>
+<div class="footer">
+<button id="fechaFooter">La fecha es:</button>
+  <h1></h1>
+ </div>
+</body>
+</html>
+
+

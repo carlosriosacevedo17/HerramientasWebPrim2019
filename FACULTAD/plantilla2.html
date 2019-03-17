@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Plantilla1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/estilo6.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="js/archivo1.js">
+</script>
+</head>
+<body>
+ <div class="header">
+  <h1>Facultad de Computación</h1>
+ </div>
+ <div class="dropdown">
+  <button class="dropbtn"><i class="fas fa-bars"></i></button>
+  <div class="dropdown-content">
+  <a href="registro.html">Registrarse</a>
+  <a href="#">Iniciar Sesión</a>
+  <a href="#">Preguntas Frecuentes</a>
+  </div>
+</div>
+
+<div class="row">
+    <div class="menu col-3">
+       <ul>
+        <li><a href="registro.html">Registrarse</a></li>
+        <li>Iniciar Sesión</li>
+        <li>Preguntas Frecuentes</li>
+        </ul>
+    </div>
+  <div id="resol" class="col-6">
+   	<div class="gallery">
+       <div class="w3-content w3-display-container">
+        <img class="mySlides" src="img/fcc3.jpg">
+        <img class="mySlides" src="img/fcc4.jpg">
+        <img class="mySlides" src="img/fcc5.jpg">
+        <img class="mySlides" src="img/fcc6.jpg">
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button id="centinela" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+       </div>
+    </div>
+
+  </div>
+ <div class="menu col-9">
+    <ul>
+      <li>Ingeniería</li>
+      <li>Tecnologías</li>
+      <li>Licenciatura</li>
+    </ul>
+  </div>
+  <div class="clearfix"></div>
+</div>
+ <div class="footer">
+  <h1>Derechos Reservados@yo</h1>
+ </div>
+ <script>
+var slideIndex = 1;
+showDivs(slideIndex);</script>
+</body>
+</html>

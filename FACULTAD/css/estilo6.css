@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 2vw;
+  
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 2vw;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+  font-size: 2vw;
+}
+
+select:focus{
+	background-color: lightblue;
+	font-size: 2vw;
+}
+
+textarea:focus {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  background-color: lightblue;
+  font-size: 2vw;
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
+input[type=submit], button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#grafica{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2vw;
+}
+
+input[type=button]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2vw;
+}
+
+#fechaFooter{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: .5em;
+  text-align: center;
+}
+
+.dropbtn {
+  background-color: #0099cc;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #0099cc}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #224466;
+}
+
+.col-3 {width: 25%;}
+.col-6 {width: 50%;}
+.col-9 {width: 25%;}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: black;
+  color: white;
+  font-size: 2vw;
+}
+.menu li:hover {
+  background-color: #0099cc;
+}
+[class*="col-"] {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.imagen {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float:left;
+}
+@media screen and (min-width: 600px) {
+  .dropdown{
+  	display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .imagen {
+    float: none;
+    width: 100%;
+  }
+  .menu{
+  	display:none;
+  }
+  #resol{
+  	width: 100%;
+  }
+}
+div.gallery img {
+  width: 100%;
+  height: auto;}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 1vw;}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mySlides {display:none;}
+
