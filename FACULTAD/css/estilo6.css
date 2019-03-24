@@ -45,6 +45,12 @@ label {
   text-transform: uppercase;
 }
 
+span{
+  color:red;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
 input[type=submit], button{
   background-color: #4CAF50;
   color: white;
