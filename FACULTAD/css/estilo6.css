@@ -43,11 +43,12 @@ label {
   display: inline-block;
   font-size: 2vw;
   text-transform: uppercase;
+  color: green;
 }
 
 span{
   color:red;
-  font-size: 2vw;
+  font-size: 2pw;
   text-transform: uppercase;
 }
 
@@ -58,6 +59,7 @@ input[type=submit], button{
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 2vw;
 }
 
 #grafica{

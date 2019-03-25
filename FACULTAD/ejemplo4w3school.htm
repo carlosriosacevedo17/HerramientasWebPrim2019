@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>w3 ejemplo 4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/estilo6.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script src="js/javascript2.js">
+</script>
+</head>
+<body onload="displayDate();">
+	<div class="header">
+  <h1>Facultad de Computación</h1>
+  <h2>ejemplo arreglos javascript w3school</h2>
+ </div>
+	<div class="container">
+		<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+          <label>Frutas: </label><input type="text" name="frutas">
+          <div id="grafica" >
+		  </div>
+          <input type="button" value="agregarPUSH" onclick="carga();">
+          <input type="button" value="quitarPOP" onclick="descarga();">
+          <input type="button" value="quitarShift" onclick="descargaShift();">
+          <input type="submit" value="Enviar">
+       </form>
+
+       
+	</div>
+<div class="footer">
+<button id="fechaFooter">La fecha es:</button>
+  <h1></h1>
+ </div>
+</body>
+</html>
