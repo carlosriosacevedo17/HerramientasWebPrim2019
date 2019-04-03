@@ -36,3 +36,14 @@ function descarga(){
 	else
      document.getElementById("grafica").style.display = "none";
 }
+
+function descargaShift(){
+	if (frutas.length>0)
+	 {
+	  document.getElementById("grafica").style.display = "block";
+	  frutas.shift();
+	  muestraVector();
+	 }
+	else
+     document.getElementById("grafica").style.display = "none";
+}
