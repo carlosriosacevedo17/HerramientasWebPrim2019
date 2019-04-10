@@ -6,8 +6,12 @@ function displayFecha(y,m,d){
 document.getElementById("fecha").value=cadena;
 }
 function muestraEdad(){
- var f_actual=document.getElementById("f_actual").value;
- var f_nac=document.getElementById("f_nac").value;
- alert(f_actual);
- alert(f_nac);
+    var hoy = new Date(document.getElementById("f_actual").value);
+    var cumpleanos = new Date(document.getElementById("f_nac").value);
+    var edad = hoy.getFullYear() - cumpleanos.getFullYear();
+    var m = hoy.getMonth() - cumpleanos.getMonth();
+    if (m < 0 || (m === 0 && hoy.getDate() < cumpleanos.getDate())) {
+        edad--;
+    }
+    alert(edad);
 }
