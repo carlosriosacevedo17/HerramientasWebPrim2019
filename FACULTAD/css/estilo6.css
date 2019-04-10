@@ -37,6 +37,13 @@ textarea:focus {
   font-size: 2vw;
 }
 
+.rdb{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: green;
+}
 
 label {
   padding: 12px 12px 12px 0;
